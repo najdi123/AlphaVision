@@ -13,7 +13,6 @@ function Home(props) {
       <TopSection />
       <StockIndex/>\
       <h2 className={"comments-title"}>نظر کاربران</h2>
-      <h2 className="comments-title">نظر کاربران</h2>
       <Comments />
       <Footer />
     </div>
