@@ -10,7 +10,7 @@ function Home(props) {
     <div>
       <Navbar />
       <TopSection />
-      <h2 className={"comments-title"}>نظر کاربران</h2>
+      <h2 className="comments-title">نظر کاربران</h2>
       <Comments />
       <Footer />
     </div>
