@@ -1,0 +1,47 @@
+.comments-item{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-title,.card-text{
+    text-align: right;
+}
+
+.user-img-holder{
+    background: url("../../../images/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.user-img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+    .comments-item {
+        width: 12rem;
+    }
+
+    .user-img{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .comments-item {
+        width: 13rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .comments-item {
+        width: 15rem;
+    }
+}

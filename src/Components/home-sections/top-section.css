@@ -1,0 +1,21 @@
+.gold-button {
+  margin: 20px !important;
+  background-color: gold;
+}
+.flex-parent {
+  display: flex;
+  background-image: url("../../images/home chart.jpg");
+  background-size: cover;
+  height: 20rem;
+}
+.flex-left {
+  text-align: center;
+  flex: 2;
+  padding: 2rem;
+}
+.flex-right {
+  flex: 1;
+}
+.white-text {
+  color: white;
+}
