@@ -3,6 +3,8 @@
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 20px;
 }
 
 .card-title,.card-text{

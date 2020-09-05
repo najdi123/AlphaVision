@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .comments-title {

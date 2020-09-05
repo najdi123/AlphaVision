@@ -1,0 +1,35 @@
+.stock-index{
+    min-height: 70px;
+    min-width: 150px;
+    max-width: 300px;
+    background: #F44336;
+    margin: 20px auto;
+    padding: 16px 0;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.stock-index >img{
+    width: 100%;
+    opacity: 0.3;
+}
+
+.stock-index-title{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.stock-index-section-1 p{
+    color: white;
+    margin: 0;
+}
+
+.stock-index-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stock-index-section-1 img{
+    width: 24px;
+}
